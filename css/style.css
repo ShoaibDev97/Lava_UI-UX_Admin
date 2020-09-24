@@ -1,0 +1,111 @@
+@font-face {
+  font-family: BAHNSCHRIFT;
+  src: url("../fonts/BAHNSCHRIFT.TTF");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  overflow-x: hidden;
+  font-family: BAHNSCHRIFT;
+}
+
+body {
+  background-color: black;
+}
+.navbar-brand {
+  color: #dcdada;
+  font-size: 36px;
+  letter-spacing: 7px;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #dcdada;
+}
+
+.fa-search {
+  color: #d4d0d1;
+  font-size: 18px;
+}
+.input-group-text {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.search-input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #a6a6ad;
+  font-size: 18px;
+  font-weight: 400;
+}
+.search-container {
+  border-bottom: 1px solid white;
+  margin-left: 100px;
+  width: 25vw;
+}
+
+.second-items a {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-expand-lg {
+  background-color: black;
+}
+.fa-bars {
+  color: white;
+  font-size: 24px;
+}
+.top-image {
+  width: 100vw;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-container {
+  width: 100vw;
+}
+
+.spacing {
+  padding: 30px;
+}
+.card-image {
+  width: 100%;
+}
+
+p {
+  color: white;
+  font-size: 26px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 992px) {
+  .search-container {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .second-items {
+    margin-left: 20px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .spacing {
+    padding: 10px;
+  }
+  p {
+    margin-left: -10px;
+  }
+}
+@media (max-width: 768px) {
+  .small-device {
+    padding: 50px;
+  }
+}
